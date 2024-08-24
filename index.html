@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مهرداد برنامه نویس تخصصی پایتون</title>
+    
+    <!-- استفاده از فونت‌های Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Vazirmatn:wght@400;700&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* طوسی روشن */
+            color: #333; /* رنگ متن */
+            font-family: 'Roboto', Arial, sans-serif; /* فونت پیش‌فرض */
+        }
+
+        .header {
+            background-color: rgba(51, 51, 51, 0.8); /* زمینه با شفافیت */
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center; /* تراز کردن آیتم‌ها به صورت عمودی */
+            justify-content: flex-end; /* پروفایل به سمت راست */
+        }
+
+        .profile-pic {
+            width: 150px; /* اندازه عکس پروفایل */
+            height: 150px;
+            border-radius: 50%; /* دایره‌ای کردن عکس */
+            object-fit: cover; /* تناسب عکس */
+            border: 10px solid transparent; /* حاشیه دور عکس */
+            border-image: linear-gradient(to right, black, white, black) 1; /* زنجیر شبیه‌سازی شده */
+            box-shadow: 0 0 0 10px black inset; /* حاشیه زنجیر شبیه‌سازی شده */
+            margin-left: 20px; /* فاصله از متن */
+        }
+
+        .site-title {
+            font-size: 24px;
+            margin: 0;
+            text-align: center; /* متن در مرکز باقی می‌ماند */
+            flex-grow: 1; /* متن مرکز را پر می‌کند */
+        }
+
+        /* مثال‌هایی از استایل‌های مختلف */
+        .font-roboto {
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        .font-vazir {
+            font-family: 'Vazirmatn', Tahoma, sans-serif;
+        }
+
+        .font-cairo {
+            font-family: 'Cairo', 'Arial', sans-serif;
+        }
+
+        .font-arial {
+            font-family: Arial, sans-serif;
+        }
+
+        .font-times {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="site-title font-roboto">مهرداد برنامه نویس تخصصی پایتون</h1> <!-- استفاده از فونت Roboto -->
+        <!-- تصویر پروفایل در سمت راست -->
+        <img src="profile.jpg" alt="پروفایل" class="profile-pic">
+    </header>
+
+    <!-- مثال‌های مختلف از استفاده از فونت‌ها -->
+    <section>
+        <h2 class="font-vazir">فونت وزیرمتن</h2>
+        <p class="font-vazir">این یک متن نمونه با استفاده از فونت "وزیرمتن" است.</p>
+
+        <h2 class="font-cairo">فونت قاهره</h2>
+        <p class="font-cairo">این یک متن نمونه با استفاده از فونت "قاهره" است.</p>
+
+        <h2 class="font-arial">فونت Arial</h2>
+        <p class="font-arial">این یک متن نمونه با استفاده از فونت "Arial" است.</p>
+
+        <h2 class="font-times">فونت Times New Roman</h2>
+        <p class="font-times">این یک متن نمونه با استفاده از فونت "Times New Roman" است.</p>
+    </section>
+</body>
+</html>
